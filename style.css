@@ -1,0 +1,45 @@
+img{
+    width: 1220px ;
+    height: 660px;
+    border-radius: 24px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
+    align-items: center;
+    
+}
+.Busan{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+h3{
+    color: red;
+    font-size: small;
+}
+
+figcaption{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+footer{
+    text-align: center;
+}
+
+li{
+    color: purple;
+}
+
+li+li{
+    color: red;
+}
+
+li+li+li{
+    color: orange;   
+}
+
