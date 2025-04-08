@@ -1,39 +1,33 @@
-img{
-    width: 1220px ;
+img {
+    width: 1220px;
     height: 660px;
     border-radius: 24px;
     text-align: center;
     margin: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
     align-items: center;
-    
-}
-.Busan{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    text-align: center;
-    align-items: center;
-    
+
 }
 
-.Templo{
-    display: flex;
+.Busan {
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
     align-items: center;
 
 }
-.Haedong{
+
+.Templo {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
     align-items: center;
+
+
 }
 
-.Parque{
+.Haedong {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -41,30 +35,40 @@ img{
     align-items: center;
 }
 
-h3{
+.Parque {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+h3 {
     color: red;
     font-size: small;
 }
 
-figcaption{
+figcaption {
     font-size: 14px;
     text-align: center;
     margin-top: 5px;
 }
 
-footer{
+footer {
     text-align: center;
 }
 
-li{
+li {
     color: purple;
 }
 
-li+li{
+li+li {
     color: red;
 }
 
-li+li+li{
-    color: orange;   
+li+li+li {
+    color: orange;
 }
-
+.hist{
+    color: blue;
+}
